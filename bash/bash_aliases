@@ -39,7 +39,7 @@ alias lat="ls -AGFoth"
 alias catn="cat -n"
 
 # Fancycat™
-alias c="pygmentize -O style=solarized -f console256 -g"
+alias c="pygmentize -f console256 -g"
 
 # “What was that alias again?” Meta!
 alias aliases="c ~/.dotfiles/bash/bash_aliases"
