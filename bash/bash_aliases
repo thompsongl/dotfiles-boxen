@@ -68,3 +68,8 @@ alias hidedeskicons="defaults write com.apple.finder CreateDesktop -bool false &
 
 # Kill all Chrome windows/tabs
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+# Switch .npmrc files
+alias npmaviture="rm ~/.npmrc && ln -s ~/.npmrc-aviture ~/.npmrc"
+alias npmprivate="rm ~/.npmrc && ln -s ~/.npmrc-privatenpm ~/.npmrc"
+alias npmthompsongl="rm ~/.npmrc && ln -s ~/.npmrc-thompsongl ~/.npmrc"
